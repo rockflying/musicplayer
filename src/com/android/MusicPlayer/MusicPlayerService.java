@@ -1,4 +1,4 @@
-package com.yarin.android.MusicPlayer;
+package com.android.MusicPlayer;
 
 import java.io.IOException;
 

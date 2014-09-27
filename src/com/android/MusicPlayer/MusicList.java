@@ -1,4 +1,6 @@
-package com.yarin.android.MusicPlayer;
+package com.android.MusicPlayer;
+
+import com.yarin.android.MusicPlayer.R;
 
 import android.app.ListActivity;
 import android.content.BroadcastReceiver;

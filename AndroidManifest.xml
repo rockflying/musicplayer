@@ -5,13 +5,13 @@
       android:versionName="1.0">
     <application 
 	android:name="MusicPlayerApp" android:icon="@drawable/icon" android:label="@string/app_name">
-        <activity android:name=".MusicList">
+        <activity android:name="com.android.MusicPlayer.MusicList">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".MusicPlayerService" android:exported="true" >  
+        <service android:name="com.android.MusicPlayer.MusicPlayerService" android:exported="true" >  
         </service>
     </application>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
