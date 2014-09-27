@@ -14,5 +14,6 @@
         <service android:name=".MusicPlayerService" android:exported="true" >  
         </service>
     </application>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
     <uses-sdk android:minSdkVersion="5" />
 </manifest> 
